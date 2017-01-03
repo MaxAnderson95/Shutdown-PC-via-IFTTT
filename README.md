@@ -13,7 +13,7 @@ A PowerShell script that looks for a file placed by IFTTT and if found shuts the
 5. Optionally rename the applet and click "Finish"
 
 ### On your Computer
-1. Download the Dropbox Sync application if it is not already.
+1. Download and log into the Dropbox Sync application if it is not already.
 2. Create a holding place for the Powershell script, I will use "C:\Scripts\Shutdown-PC-via-IFTTT" as this is where I cloned the Git repository
 3. Edit line 2 to contian the directory of where your IFTTT applet will place the text file in your Dropbox local sync folder
 4. Edit line 3 to change the Sleeptime between file checks.
