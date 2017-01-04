@@ -10,7 +10,7 @@ A PowerShell script that looks for a file placed by IFTTT and if found shuts the
 2. For the action service, choose a cloud storage platform of your choice (Dropbox, Google Drive, OneDrive, etc.) I've chosen Dropbox for my example for it's fast desktop sync and the ability to create text files directly with IFTTT. If this is the first time you've used the Dropbox service in IFTTT, you'll have to log in and connect your account.
 3. Choose the "Create a text file" option.
 4. For the file name, enter "shutdown". For the content it can be anything it does not matter. And i've set it to place the file in the IFTTT folder in the root of the Dropbox folder.
-![Screenshot](http://i.imgur.com/Bve9XJ2.png)
+<img src="http://i.imgur.com/Bve9XJ2.png" width="480"
 5. Optionally rename the applet and click "Finish"
 
 ### On your Computer
