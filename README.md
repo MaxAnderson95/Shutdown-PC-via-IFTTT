@@ -5,7 +5,8 @@ A PowerShell script that looks for a file placed by IFTTT and if found shuts the
 
 ### In IFTTT
 1. Create an IFTTT Applet with a "If This" service of your choice as the trigger. In my example I will use an Amazon Alexa trigger but you can use an Email or SMS to trigger the Applet just the same.
-![Screenshot](http://i.imgur.com/hc2x9P7.png)
+<img src="http://i.imgur.com/hc2x9P7.png" width="480">
+
 2. For the action service, choose a cloud storage platform of your choice (Dropbox, Google Drive, OneDrive, etc.) I've chosen Dropbox for my example for it's fast desktop sync and the ability to create text files directly with IFTTT. If this is the first time you've used the Dropbox service in IFTTT, you'll have to log in and connect your account.
 3. Choose the "Create a text file" option.
 4. For the file name, enter "shutdown". For the content it can be anything it does not matter. And i've set it to place the file in the IFTTT folder in the root of the Dropbox folder.
