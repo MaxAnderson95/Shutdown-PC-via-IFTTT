@@ -2,8 +2,8 @@
 $SearchDirectory = "C:\Users\Max\Dropbox\IFTTT"
 $SleepTime = 5
 
-#Sleep for 1 minute before being active (to prevent boot loops if the file for some reason is not deleted)
-Start-Sleep -Seconds 60
+#Removes the file from the directory, in case the file was not deleted. Sets the error action in case the file is not present.
+Remove-Item -Path "$SearchDirectory\shutdown.txt" -Force -ErrorAction SilentlyContinue
 
 #Loop checking to see if the file has been created and once it has it continues on. Sleep in the look to prevent CPU pegging
 Do {
